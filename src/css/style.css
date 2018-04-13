@@ -139,6 +139,12 @@ ul {
   }
 }
 
+.marquee {
+  font-style: italic;
+  font-size: 20px;
+  font-weight: bold;
+}
+
 /*FOOTER SECTION*/
 
 .foot {
