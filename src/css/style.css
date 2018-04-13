@@ -46,7 +46,7 @@ ul {
 }
 
 .jumbotron-feedback {
-  background-image: url(../images/feedback.jpg);
+  background-image: url(../images/create.jpg);
 }
 
 .jumbotron-art {
@@ -71,7 +71,7 @@ ul {
 .jumbotron h1 {
   color: #ffffff;
   padding-top: 11.85rem;
-  font-family: 'Petit Formal Script', cursive;
+  font-family: 'Helvetica', sans-serif;
   font-size: 10rem;
   text-shadow: -1px -1px 0 #000,
   1px -1px 0 #000,
@@ -143,6 +143,11 @@ ul {
   font-style: italic;
   font-size: 20px;
   font-weight: bold;
+}
+
+#weather {
+  border-radius: 5px;
+  background-color: #e6e6e6;
 }
 
 /*FOOTER SECTION*/
