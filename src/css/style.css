@@ -42,8 +42,30 @@ ul {
     background-color: #e6e6e6;
 }
 
+
+/*DROPDOWN MENU*/
+.dropdown .dropdown-menu {
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+
+    max-height: 0;
+    display: block;
+    overflow: hidden;
+    opacity: 0;
+}
+
+.dropdown:hover .dropdown-menu {
+    max-height: 200px;
+    opacity: 1;
+}
+
+/*Temp page titles*/
 .pagetitle {
   margin-top: 4rem;
+  padding-bottom: 29.5rem;
 }
 
 /*JUMBOTRON STYLES*/
