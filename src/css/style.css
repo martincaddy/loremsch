@@ -12,8 +12,9 @@ body {
 /*NAVBAR STYLES*/
 
 .navbar {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: bold;
+  background-color: #e6e6e6 !important;
 }
 
 .navbar li {
@@ -30,6 +31,19 @@ body {
 
 ul {
   list-style-type: none;
+}
+
+.dropdown-item {
+  border-bottom: solid 1px;
+}
+
+.dropdown-item:hover {
+    color: blue;
+    background-color: #e6e6e6;
+}
+
+.pagetitle {
+  margin-top: 4rem;
 }
 
 /*JUMBOTRON STYLES*/
@@ -139,6 +153,11 @@ ul {
   }
 }
 
+.classhead {
+  border: black, solid, 2px;
+  color: black;
+}
+
 .marquee {
   font-style: italic;
   font-size: 20px;
@@ -157,7 +176,7 @@ ul {
   display: flex;
   flex-direction: row;
   height: 5rem;
-  background-color: azure;
+  background-color: #e6e6e6 !important;
   margin-left: 9rem;
   width: 960px;
   align-items: center;
